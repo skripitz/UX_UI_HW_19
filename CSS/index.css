@@ -1,0 +1,163 @@
+/* nav section */
+.nav {
+  display: flex;
+  flex-direction: row;
+  background: white;
+  height: 60px;
+  font-size: 25px;
+  font-family: 'Barlow', sans-serif;
+}
+
+.Logo img {
+    height: 40px;
+}
+
+.right {
+    display: flex;
+    flex-direction: row;
+    margin-left: 600px;
+}
+
+.right a {
+  padding: 10px;
+}
+
+/* About Me Section */
+
+.header h1 {
+  font-family: 'Bungee', cursive;
+  font-size: 40px;
+  align-items: flex-start;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+ 
+}
+
+.text {
+  display: flex;
+  font-family: 'Barlow', sans-serif;
+  font-size: 18px;
+  height: 500px;
+  width: 500px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  }
+
+  .resume {
+    background-color: gray;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    font-family: "Barlow";
+    font-size: 20px;
+    margin: 4px 2px;
+    border-radius: 3px;
+  }
+
+.PictureOfMe img {
+  display: flex;
+  width: 100%;
+  float: right;
+  margin-left: 100px;
+}
+
+/* My Skills section */
+
+.skills {
+  display: flex;
+  width: fit-content;
+  padding: 30px;
+  font-family: "Barlow";
+  flex-direction: row;
+  margin: 20px;
+  align-items:center;
+  justify-content: center; 
+
+}
+
+#uxresearch, #ui, #webdev {
+  background-color: lightgray;
+  border: none;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  font-family: "Barlow";
+  font-size: 20px;
+  margin: 5px 5px;
+  border-radius: 3px;
+}
+
+
+h2 {
+  font-family: "Barlow";
+  font-size: 40px;
+}
+
+/* My Projects */
+
+.allProjects {
+  display: flex;
+  flex-direction: column;
+  border: none;
+  color: black;
+  padding: 15px 32px;
+  font-family: "Barlow"l;
+  margin: 5px 5px;
+}
+
+#Project1, #Project2, #Project3, #Project4 {
+  background-color: gray;
+  width: auto;
+  height: 150px;
+  border-radius: 3px;
+  margin: 10px;
+}
+
+.allProjects h3{
+  font-size: 30px;
+  font-family:"Barlow";
+  font-weight: bold;
+  padding: 50px;
+}
+
+/* footer section */
+
+.footer {
+  background-color: darkgrey;
+  padding: 20px 40px;
+  font-family:"barlow";
+
+}
+
+.footer h1 {
+  font-weight: bold;
+  font-family: "barlow";
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer a {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 5px;
+}
+
+@media only screen and (max-width: 600px){
+  #uxresearch, #ui, #webdev {
+    display: flex;
+    flex-direction: column;
+  }
+  .skills {
+    display: flex;
+    flex-direction: column;
+  }
+
+}
