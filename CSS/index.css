@@ -78,7 +78,7 @@
 
 .card-title {
   font-size: 30px;
-  text-align: center;
+  text-align: left;
 }
 
 /* My Projects */
@@ -91,21 +91,6 @@
   padding: 15px 32px;
   font-family: "Barlow"l;
   margin: 5px 5px;
-}
-
-#Project1, #Project2, #Project3, #Project4 {
-  background-color: gray;
-  width: auto;
-  height: 150px;
-  border-radius: 3px;
-  margin: 10px;
-}
-
-.allProjects h3{
-  font-size: 30px;
-  font-family:"Barlow";
-  font-weight: bold;
-  padding: 50px;
 }
 
 /* footer section */
