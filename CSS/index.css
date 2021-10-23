@@ -1,25 +1,22 @@
 /* nav section */
-.nav {
-  display: flex;
-  flex-direction: row;
-  background: white;
-  height: 60px;
-  font-size: 25px;
-  font-family: 'Barlow', sans-serif;
-}
 
-.Logo img {
-    height: 40px;
+.customNav {
+  position: fixed;
+  width: 100%;
+  background-color: white !important;
+  background-size: cover;
+  z-index: 10;
 }
-
-.right {
-    display: flex;
-    flex-direction: row;
-    margin-left: 600px;
+.navbar-nav {
+  margin-left: auto;
+  margin-right: 0 !important;
 }
-
-.right a {
-  padding: 10px;
+.navbar-brand img {
+  width: 150px;
+}
+.nav-item {
+  margin: 0px 15px;
+  font-size: 20px;
 }
 
 /* About Me Section */
@@ -39,6 +36,7 @@
 
 .text {
   display: flex;
+  flex-direction: row;
   font-family: 'Barlow', sans-serif;
   font-size: 18px;
   height: 500px;
@@ -47,7 +45,7 @@
   justify-content: flex-start;
   }
 
-  .resume {
+ .resume {
     background-color: gray;
     border: none;
     color: white;
@@ -61,6 +59,7 @@
 
 .PictureOfMe img {
   display: flex;
+  flex-direction: row;
   width: 100%;
   float: right;
   margin-left: 100px;
@@ -68,34 +67,18 @@
 
 /* My Skills section */
 
-.skills {
-  display: flex;
-  width: fit-content;
-  padding: 30px;
-  font-family: "Barlow";
-  flex-direction: row;
-  margin: 20px;
-  align-items:center;
-  justify-content: center; 
-
+.card {
+  background-color:lightgray;
 }
 
-#uxresearch, #ui, #webdev {
-  background-color: lightgray;
-  border: none;
-  color: black;
-  padding: 15px 32px;
-  text-align: center;
-  font-family: "Barlow";
+.card-text {
   font-size: 20px;
-  margin: 5px 5px;
-  border-radius: 3px;
+  text-align: center;
 }
 
-
-h2 {
-  font-family: "Barlow";
-  font-size: 40px;
+.card-title {
+  font-size: 30px;
+  text-align: center;
 }
 
 /* My Projects */
