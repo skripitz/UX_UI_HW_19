@@ -1,5 +1,5 @@
 $(".resume").hover(function(){
-      $(this).css("background-color", "yellow");
-      }, function(){
-      $(this).css("background-color", "pink");
-    });
+    $(this).css("background-color", "black");
+    }, function(){
+    $(this).css("background-color", "gray");
+  });
